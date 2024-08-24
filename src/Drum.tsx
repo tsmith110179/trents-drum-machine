@@ -1,4 +1,4 @@
-import { AudioClip} from '/.types.tsx';
+import { AudioClip} from '/.types';
 
 interface DrumProps{
     audioClip: AudioClip;
