@@ -62,8 +62,8 @@ function App() {
     .play()
     .catch(console.error);
 
-    document.getElementById('drum-' + clip.keyTrigger)?.focus()
-    document.getElementById('display')!.innerText = clip.description
+    document.getElementById('drum-' + clip.keyTrigger)?.focus();
+    document.getElementById('display')!.innerText = clip.description;
 }
 
   return (
