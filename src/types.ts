@@ -1,5 +1,5 @@
 export interface AudioClip{
-    keytrigger: string;
+    keyTrigger: string;
     url: string;
     description: string;
 }
